@@ -71,6 +71,10 @@ YeomanGenerator.prototype.bower = function bower() {
 	this.template('_bower.json', 'bower.json');
 };
 
+YeomanGenerator.prototype.indexFile = function bower() {
+	this.template('_index.html', 'index.html');
+};
+
 YeomanGenerator.prototype.jshint = function jshint() {
 	this.copy('jshintrc', '.jshintrc');
 };
