@@ -1,0 +1,2 @@
+generator-somajs-mocha-karma
+============================
