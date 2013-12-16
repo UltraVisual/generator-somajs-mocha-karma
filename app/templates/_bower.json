@@ -1,8 +1,8 @@
 {
   "name": "<%= _.slugify(appname)%>",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "authors": [
-    "Shane Johnson <shane.johnson@gamesys.co.uk>"
+    ""
   ],
   "scripts": [
     "<%= _.slugify(appname) %>.js"
@@ -14,7 +14,7 @@
     "director": "latest",
     "requirejs": "latest",
     "soma.js": "latest",
-    "soma-template": "~2.0.5"
+    "soma-template": "latest"
   },
   "devDependencies": {},
   "ignore": [

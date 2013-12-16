@@ -87,6 +87,10 @@ YeomanGenerator.prototype.plugin = function plugin() {
 	this.mkdir(devFolderName);
 	this.mkdir(devFolderName + '/styles');
 	this.mkdir(devFolderName + '/templates');
+	this.mkdir(devFolderName + '/views');
+	this.mkdir(devFolderName + '/models');
+	this.mkdir(devFolderName + '/mediators');
+	this.mkdir(devFolderName + '/commands');
 	this.mkdir(devFolderName + '/lib');
 	this.template('main.js', devFolderName + '/' + this.appname + '.js')
 };
