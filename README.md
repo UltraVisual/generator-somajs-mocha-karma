@@ -1,6 +1,3 @@
-generator-somajs-mocha-karma
-============================
-
 # Requirejs / Soma.js / Mocha / Karma Generator
 
 ## Requirements
