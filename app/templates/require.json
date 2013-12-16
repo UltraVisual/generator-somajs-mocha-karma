@@ -1,0 +1,25 @@
+{
+  "appDir": "development",
+  "baseUrl": "./",
+  "dir": "production",
+  "optimize": "uglify2",
+  "optimizeCss": "none",
+  "fileExclusionRegExp": "vendor|.*min\\.js|support$",
+  "preserveLicenseComments": false,
+  "paths": {
+    "soma": "../bower_components/soma.js/build/soma",
+    "template": "../bower_components/soma-template/build/soma-template",
+    "director": "../bower_components/director/build/director",
+    "views": "./views",
+    "models": "./models"
+  },
+  "shim": {
+    "template": {
+      "deps": ["soma"]
+    },
+    "director": {
+      "exports": "Router"
+    }
+
+  }
+}
